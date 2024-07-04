@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      #app {
+        margin: 10px !important;
+      }
+      #app::after {
+        padding-top: 10px;
+        content: ' <- AFTER Content';
+        color: red;
+      }
+      div {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" style="padding: 4.2rem"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
